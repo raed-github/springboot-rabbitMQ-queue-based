@@ -10,7 +10,7 @@ import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 
 public class Consumer {
-	private static String queue = "MyFirstQueue";
+	private static String queue = "MyQueue";
 
 	public static void main(String[] args) throws IOException, TimeoutException {
 		ConnectionFactory factory = new ConnectionFactory();
